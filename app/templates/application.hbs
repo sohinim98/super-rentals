@@ -1,0 +1,14 @@
+<!--This template is special in that it does not have its own URL and
+cannot be navigated to on its own. Rather, it is used to specify a common
+layout that is shared by every page in your app. This is a great place
+to put site-wide UI elements, like a nav-bar and a site footer.-->
+
+<!--The {{outlet}} keyword denotes the place where our site's pages should be
+rendered into, similar to the {{yield}} keyword we saw earlier.-->
+
+<div class="container">
+  <NavBar />
+  <div class="body">
+    {{outlet}}
+  </div>
+</div>
