@@ -1,4 +1,6 @@
 # super-rentals
+Here, we use Ember to build an application called Super Rentals. 
+This will be a website for browsing interesting places to stay during your next vacation.
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
